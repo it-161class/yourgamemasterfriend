@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/forms.css" />
  </head>
  <body>
-     <header>
+     <header class="container">
      <h1>Joshua Zimmerschied's IT161 Website</h1>
      <nav class="topnav" id="myTopnav">
        <a href="index.html" class="active">Welcome</a>
@@ -26,7 +26,7 @@
      </nav>
      </header>
      
-  <main class="wrapper">
+  <main class="wrapper container">
     <h2 class="subheader">Contact Z</h2>
     <?php
         /*
@@ -46,23 +46,10 @@
         //echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>
-     
-     <img class="desktop" src="images/desktop.jpg" alt="Photo of the site owner" />
-       
-     <img class="tablet" src="images/tablet.jpg" alt="Photo of a cyan wallpaper" />
-       
-     <img class="phone" src="images/phone.jpg" alt="Photo of a blue wallpaper" />
-       
-       <h2 class="subheader">A little about me!</h2>
-       
-       <p>I enjoy being a game master for tabletop roleplaying games as one of my favorite hobbies. It allows me to build worlds, characters, and heroic tales. Sharing those with my players, bringing their imaginations and ideas into the game. It's a great deal of fun that can be shared with people you care about.</p>
-       <p>I am thirty two years old, and have been aspiring to be involved in a creative career since I left highschool. </p>
-       <p>You can easily describe me as an extrovert. I am at my best when working with others.</p>
-       
      <footer>
       <p><small>&copy; 2021 by <a href="contact.php">Joshua Zimmerschied</a>, All Rights Reserved ~ <a href="https://validator.w3.org/nu/?doc=https://web-students.net/site48/it161/index.html" target="_blank">Valid HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
     </footer>
-  </div>
+</main>
      
   <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
      
