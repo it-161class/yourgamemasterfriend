@@ -1,0 +1,56 @@
+/* BIG website */
+
+html {
+    background-color: #ccc;
+}
+
+main {
+    background-color: #fff;
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+    border: 1px solid black;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+section {
+    float: left;
+    width: 64%;
+
+}
+
+aside {
+    float: right;
+    width: 34%;
+}
+
+footer {
+    padding: 1em;
+    text-align: center;
+    clear:both;
+}
+
+/* mobile styles */
+
+@media all and (max-width:700px) {
+
+    main {
+        width: 100%;
+        overflow: auto;
+        margin: auto;
+        border: 1px solid black;
+    }
+
+    section {
+        float: none;
+        width: 100%;    
+    }
+    
+    aside {
+        float: none;
+        width: 100%;
+    }
+}
